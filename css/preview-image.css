@@ -10,6 +10,7 @@
     opacity: 0.8;
     left: 0;
     top: 0;
+    z-index: 9998;
 }
 .preview-image-cotainer{
     display: none;
@@ -25,6 +26,7 @@
     cursor: zoom-out;
     padding: 15px;
     box-sizing: border-box;
+    z-index: 9999;
 }
 .preview-image-cotainer img{
     max-width: 100%;
