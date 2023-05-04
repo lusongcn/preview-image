@@ -1,0 +1,32 @@
+.preview-image-content img{
+    cursor: zoom-in;
+}
+.preview-image-shadow{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.8;
+    left: 0;
+    top: 0;
+}
+.preview-image-cotainer{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    left: 0;
+    top: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.preview-image-cotainer img{
+    max-width: 100%;
+    height: auto;
+}
